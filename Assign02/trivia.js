@@ -59,7 +59,6 @@ function startGame() {
         question.reactionArea.classList.add('incorrect');
         question.reactionArea.classList.remove('correct');
 
-
       }
 
       if (scores.length <= i) {
