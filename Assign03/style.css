@@ -1,0 +1,9 @@
+.text-container {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    text-shadow: 4px 4px 4px #aaa;
+    font-family: 'Tangerine', serif;
+    font-size: 48px;
+}
