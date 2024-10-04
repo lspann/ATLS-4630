@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src='https://cdn.jsdelivr.net/npm/fullcalendar@6.1.15/index.global.min.js' src="script.js" defer></script>
+        <script>
+
+            document.addEventListener('DOMContentLoaded', function() {
+            var calendarEl = document.getElementById('calendar');
+            var calendar = new FullCalendar.Calendar(calendarEl, {
+                initialView: 'dayGridMonth'
+            });
+            calendar.render();
+            });
+
+            // import { Calendar } from '@fullcalendar/core'
+            // import multiMonthPlugin from '@fullcalendar/multimonth'
+
+            // let calendar = new Calendar(calendarEl, {
+            // plugins: [multiMonthPlugin],
+            // initialView: 'multiMonthYear'
+            // })
+    
+        </script>
+    <title>Project 1</title>
+</head>
+    <body>
+        <div id='calendar'></div>
+    </body>
+</html>
